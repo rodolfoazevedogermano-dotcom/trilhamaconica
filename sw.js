@@ -1,5 +1,11 @@
 const CACHE = 'trilha-maconica-v1';
-const ASSETS = ['/', '/index.html'];
+const ASSETS = [
+  '/trilhamaconica/',
+  '/trilhamaconica/index.html',
+  '/trilhamaconica/manifest.json',
+  '/trilhamaconica/icon-192.png',
+  '/trilhamaconica/icon-512.png'
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(
